@@ -18,8 +18,7 @@
 .coin {
     display: flex;
     align-items: center;
-    padding-right: 30px;
-    min-width: 250px;
+    
 }
 
 
