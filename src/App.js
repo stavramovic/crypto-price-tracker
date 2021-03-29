@@ -1,3 +1,4 @@
+
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import './App.scss'
@@ -59,11 +60,11 @@ function App() {
         <Row className='coinInfoPos'>
           <Col md='12' className='infoData'>
             <Col md='1' xs='1' className='pr-md-0 pr-5'></Col>
-            <Col md='1'  sm='5' xs='3' className='text-left' >Name</Col>
+            <Col md='1'  sm='5' xs='3' className='text-left ml-sm-0 pl-sm-3 ml-2 pl-4' >Name</Col>
             <Col md='2' sm=''  className='d-none d-sm-block'  ></Col>
-            <Col lg='2' md='3' sm='3' xs='5'  className='text-sm-right text-center pr-md-3 pr-sm-4 pr-4'> Price&nbsp;({currency})</Col>
+            <Col lg='2' md='3' sm='3' xs='5'  className='text-sm-right text-center'> Price&nbsp;({currency})</Col>
             <Col lg='2' md='3'  className='d-none d-md-block pl-lg-4 pl-md-5 '>Volume</Col>
-            <Col lg='2' md='3'  sm='2' xs='3' className='pr-lg-2 pr-md-2 pr-sm-4 pr-4 pr-5'    >24h</Col>
+            <Col lg='2' md='3'  sm='2' xs='2' className='pr-lg-2 pr-md-2 pr-sm-4 '    >24h</Col>
             <Col lg='2'   className='d-none d-lg-block'>Market&nbsp;cap</Col>
           </Col>
         </Row>
