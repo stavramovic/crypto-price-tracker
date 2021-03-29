@@ -40,27 +40,25 @@
 
 .coinInfo {
   display: flex;
-    justify-content: center;
-    font-size: 15px;
+  justify-content: center;
+  font-size: 15px;
 }
 
 .coinInfoPos {
   display: flex;
-    flex-direction: row;
-    justify-items: start;
-    align-items: center;
-    height: 60px;
-    border-bottom: 1px solid #d7d7d7;
-    width: 1000px;
+  flex-direction: row;
+  justify-items: start;
+  align-items: center;
+  height: 60px;
+  border-bottom: 1px solid #d7d7d7;
+  width: 1000px;
   }
 
 
 
 .infoData {
   display: flex;
-    text-align: center;
-    
-    
+  text-align: center;
 }
 
 
