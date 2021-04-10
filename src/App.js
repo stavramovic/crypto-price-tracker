@@ -68,7 +68,7 @@ function App() {
             <Col lg='2' className='d-none d-lg-block pr-1'>Market&nbsp;cap</Col>
           </Col>
         </Row>
-         </Container>
+      </Container>
       {filteredCoins.map(coin => {
         return (
           <Coin

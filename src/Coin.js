@@ -16,7 +16,7 @@ const Coin = ({ name, image, symbol, price, marketcap, volume, priceChange}) => 
           <Col lg='2' md='3'  className='text-right d-none d-md-block'>{volume.toLocaleString()}</Col>
           {priceChange < 0 ? (
             <Col lg='2' md='3' xs='2' className='red d-none d-sm-block text-center'>{priceChange.toFixed(2)}%</Col>
-          ) : (<Col lg='2' md='3' xs='2' className='green d-none d-sm-block text-center'>{priceChange.toFixed(2)}%</Col>)}
+          ) : (<Col lg='2' md='3' xs='2' className='green d-none d-sm-block text-center'>&nbsp;{priceChange.toFixed(2)}%</Col>)}
           <Col lg='2' className='d-none d-lg-block text-right'>{marketcap.toLocaleString()}
           </Col>
         </Col>
