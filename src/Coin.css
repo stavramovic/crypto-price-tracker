@@ -18,19 +18,16 @@
 .coin {
     display: flex;
     align-items: center;
-    
 }
 
 
 .coin img {
     height: 30px;
     width: 30px;
-    
 }
 
 .coin-symbol {
     text-transform: uppercase;
-    
 }
 
 .red {
