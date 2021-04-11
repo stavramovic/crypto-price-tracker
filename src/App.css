@@ -74,9 +74,3 @@
 }
 
 
-
-$enable-negative-margins: true;
-
-.ml-n1 {
-  margin-left: -0.25rem !important;
-}
